@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.hyperskill.stopwatch.ExampleUnitTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-12-26T08:40:20" hostname="DESKTOP-G7N0UQA" time="8.069">
+  <properties/>
+  <testcase name="testShouldCheckTextViewExist" classname="org.hyperskill.stopwatch.ExampleUnitTest" time="7.35"/>
+  <testcase name="testShouldCheckResetButtonExist" classname="org.hyperskill.stopwatch.ExampleUnitTest" time="0.212"/>
+  <testcase name="testShouldCheckResetButtonText" classname="org.hyperskill.stopwatch.ExampleUnitTest" time="0.169"/>
+  <testcase name="testShouldCheckStartButtonText" classname="org.hyperskill.stopwatch.ExampleUnitTest" time="0.166"/>
+  <testcase name="testShouldCheckStartButtonExist" classname="org.hyperskill.stopwatch.ExampleUnitTest" time="0.171"/>
+  <system-out><![CDATA[Downloading from maven 
+[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckTextViewExist: sdk=28; resources=BINARY
+Downloading from maven 
+Called loadFromPath(/system/framework/framework-res.apk, true); mode=binary sdk=28
+[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckResetButtonExist: sdk=28; resources=BINARY
+[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckResetButtonText: sdk=28; resources=BINARY
+[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckStartButtonText: sdk=28; resources=BINARY
+[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckStartButtonExist: sdk=28; resources=BINARY
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

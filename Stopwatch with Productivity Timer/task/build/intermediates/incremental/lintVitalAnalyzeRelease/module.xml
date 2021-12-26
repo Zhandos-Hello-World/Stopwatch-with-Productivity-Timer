@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="C:\Users\Zhandos\AndroidStudioProjects\Stopwatch with Productivity Timer\Stopwatch with Productivity Timer\task"
+    name=":Stopwatch_with_Productivity_Timer-task"
+    type="APP"
+    maven="Stopwatch_with_Productivity_Timer:Stopwatch_with_Productivity_Timer-task:"
+    gradle="7.0.3"
+    buildFolder="build"
+    bootClassPath="C:\Users\Zhandos\AppData\Local\Android\Sdk\platforms\android-28\android.jar;C:\Users\Zhandos\AppData\Local\Android\Sdk\build-tools\30.0.2\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-28"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
