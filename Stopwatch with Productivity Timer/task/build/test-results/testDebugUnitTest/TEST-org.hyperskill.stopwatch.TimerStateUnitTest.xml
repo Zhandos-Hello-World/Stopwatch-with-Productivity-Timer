@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.hyperskill.stopwatch.TimerStateUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-26T11:56:51" hostname="DESKTOP-G7N0UQA" time="8.544">
+  <properties/>
+  <testcase name="testShouldContinueCountOnPressingStartButtonAgain" classname="org.hyperskill.stopwatch.TimerStateUnitTest" time="8.544"/>
+  <system-out><![CDATA[[Robolectric] org.hyperskill.stopwatch.TimerStateUnitTest.testShouldContinueCountOnPressingStartButtonAgain: sdk=28; resources=BINARY
+Called loadFromPath(/system/framework/framework-res.apk, true); mode=binary sdk=28
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

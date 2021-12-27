@@ -1,14 +1,15 @@
 package org.hyperskill.stopwatch
 
 import android.app.Activity
-import android.view.View
 import android.widget.Button
 import android.widget.TextView
-import org.junit.Assert.*
+import org.junit.Assert.assertEquals
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.Robolectric
 import org.robolectric.RobolectricTestRunner
+
+import org.hyperskill.stopwatch.TestUtils.findViewByString
 
 // Version 1.4
 @RunWith(RobolectricTestRunner::class)
@@ -20,13 +21,13 @@ class ExampleUnitTest {
         activityController.setup().get()
     }
     private val startButton: Button by lazy {
-        findByViewByString("startButton", activity)
+        findViewByString("startButton", activity)
     }
     private val resetButton: Button by lazy {
-        findByViewByString("resetButton", activity)
+        findViewByString("resetButton", activity)
     }
     private val textView: TextView by lazy {
-        findByViewByString("textView", activity)
+        findViewByString("textView", activity)
     }
 
 
@@ -56,19 +57,4 @@ class ExampleUnitTest {
         val message = "in button property \"text\""
         assertEquals(message, "Reset", resetButton.text)
     }
-
-    private inline fun <reified T> findByViewByString(idString: String, activity: Activity): T {
-        val id = activity.resources.getIdentifier(idString, "id", activity.packageName)
-        val view: View? = activity.findViewById(id)
-
-        val idNotFoundMessage = "View with id \"$idString\" was not found"
-        val wrongClassMessage = "View with id \"$idString\" is not from expected class. " +
-                "Expected ${T::class.java.simpleName} found ${view?.javaClass?.simpleName}"
-
-        assertNotNull(idNotFoundMessage, view)
-        assertTrue(wrongClassMessage, view is T)
-
-        return view as T
-    }
-
 }

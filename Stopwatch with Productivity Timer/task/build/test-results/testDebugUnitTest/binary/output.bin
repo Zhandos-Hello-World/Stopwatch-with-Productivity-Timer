@@ -1,8 +1,2 @@
-Downloading from maven 
-o[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckTextViewExist: sdk=28; resources=BINARY
-Downloading from maven 
+‡[Robolectric] org.hyperskill.stopwatch.TimerStateUnitTest.testShouldContinueCountOnPressingStartButtonAgain: sdk=28; resources=BINARY
 TCalled loadFromPath(/system/framework/framework-res.apk, true); mode=binary sdk=28
-r[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckResetButtonExist: sdk=28; resources=BINARY
-q[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckResetButtonText: sdk=28; resources=BINARY
-q[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckStartButtonText: sdk=28; resources=BINARY
-r[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckStartButtonExist: sdk=28; resources=BINARY
