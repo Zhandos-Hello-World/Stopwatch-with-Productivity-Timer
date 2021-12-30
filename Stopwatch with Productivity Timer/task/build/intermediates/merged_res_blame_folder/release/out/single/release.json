@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\Zhandos\\AndroidStudioProjects\\Stopwatch with Productivity Timer\\Stopwatch with Productivity Timer\\task\\build\\intermediates\\merged_res\\release\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Zhandos\\AndroidStudioProjects\\Stopwatch with Productivity Timer\\Stopwatch with Productivity Timer\\task\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Zhandos\\Documents\\GitHub\\Stopwatch-with-Productivity-Timer\\Stopwatch with Productivity Timer\\task\\build\\intermediates\\merged_res\\release\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Zhandos\\Documents\\GitHub\\Stopwatch-with-Productivity-Timer\\Stopwatch with Productivity Timer\\task\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Zhandos\\AndroidStudioProjects\\Stopwatch with Productivity Timer\\Stopwatch with Productivity Timer\\task\\build\\intermediates\\merged_res\\release\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Zhandos\\AndroidStudioProjects\\Stopwatch with Productivity Timer\\Stopwatch with Productivity Timer\\task\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\Zhandos\\Documents\\GitHub\\Stopwatch-with-Productivity-Timer\\Stopwatch with Productivity Timer\\task\\build\\intermediates\\merged_res\\release\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Zhandos\\Documents\\GitHub\\Stopwatch-with-Productivity-Timer\\Stopwatch with Productivity Timer\\task\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Zhandos\\AndroidStudioProjects\\Stopwatch with Productivity Timer\\Stopwatch with Productivity Timer\\task\\build\\intermediates\\merged_res\\release\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Zhandos\\AndroidStudioProjects\\Stopwatch with Productivity Timer\\Stopwatch with Productivity Timer\\task\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Zhandos\\Documents\\GitHub\\Stopwatch-with-Productivity-Timer\\Stopwatch with Productivity Timer\\task\\build\\intermediates\\merged_res\\release\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Zhandos\\Documents\\GitHub\\Stopwatch-with-Productivity-Timer\\Stopwatch with Productivity Timer\\task\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Zhandos\\AndroidStudioProjects\\Stopwatch with Productivity Timer\\Stopwatch with Productivity Timer\\task\\build\\intermediates\\merged_res\\release\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Zhandos\\AndroidStudioProjects\\Stopwatch with Productivity Timer\\Stopwatch with Productivity Timer\\task\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Zhandos\\Documents\\GitHub\\Stopwatch-with-Productivity-Timer\\Stopwatch with Productivity Timer\\task\\build\\intermediates\\merged_res\\release\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Zhandos\\Documents\\GitHub\\Stopwatch-with-Productivity-Timer\\Stopwatch with Productivity Timer\\task\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Zhandos\\AndroidStudioProjects\\Stopwatch with Productivity Timer\\Stopwatch with Productivity Timer\\task\\build\\intermediates\\merged_res\\release\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Zhandos\\AndroidStudioProjects\\Stopwatch with Productivity Timer\\Stopwatch with Productivity Timer\\task\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Zhandos\\Documents\\GitHub\\Stopwatch-with-Productivity-Timer\\Stopwatch with Productivity Timer\\task\\build\\intermediates\\merged_res\\release\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Zhandos\\Documents\\GitHub\\Stopwatch-with-Productivity-Timer\\Stopwatch with Productivity Timer\\task\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     }
 ]

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Zhandos\\AndroidStudioProjects\\Stopwatch with Productivity Timer\\Stopwatch with Productivity Timer\\task\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et\\values-et.xml",
+            "outputFile": "C:\\Users\\Zhandos\\Documents\\GitHub\\Stopwatch-with-Productivity-Timer\\Stopwatch with Productivity Timer\\task\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et\\values-et.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Zhandos\\.gradle\\caches\\transforms-3\\a7c3ce77966d2940bc838e992c7495cd\\transformed\\appcompat-1.2.0\\res\\values-et\\values-et.xml",

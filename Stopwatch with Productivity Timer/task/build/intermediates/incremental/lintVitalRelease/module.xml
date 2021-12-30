@@ -1,6 +1,6 @@
 <lint-module
     format="1"
-    dir="C:\Users\Zhandos\AndroidStudioProjects\Stopwatch with Productivity Timer\Stopwatch with Productivity Timer\task"
+    dir="C:\Users\Zhandos\Documents\GitHub\Stopwatch-with-Productivity-Timer\Stopwatch with Productivity Timer\task"
     name=":Stopwatch_with_Productivity_Timer-task"
     type="APP"
     maven="Stopwatch_with_Productivity_Timer:Stopwatch_with_Productivity_Timer-task:"

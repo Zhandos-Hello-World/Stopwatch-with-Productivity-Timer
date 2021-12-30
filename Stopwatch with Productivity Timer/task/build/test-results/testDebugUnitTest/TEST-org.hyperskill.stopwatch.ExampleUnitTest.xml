@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.hyperskill.stopwatch.ExampleUnitTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-12-26T08:40:20" hostname="DESKTOP-G7N0UQA" time="8.069">
+<testsuite name="org.hyperskill.stopwatch.ExampleUnitTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-12-30T13:09:56" hostname="DESKTOP-G7N0UQA" time="8.965">
   <properties/>
-  <testcase name="testShouldCheckTextViewExist" classname="org.hyperskill.stopwatch.ExampleUnitTest" time="7.35"/>
-  <testcase name="testShouldCheckResetButtonExist" classname="org.hyperskill.stopwatch.ExampleUnitTest" time="0.212"/>
-  <testcase name="testShouldCheckResetButtonText" classname="org.hyperskill.stopwatch.ExampleUnitTest" time="0.169"/>
-  <testcase name="testShouldCheckStartButtonText" classname="org.hyperskill.stopwatch.ExampleUnitTest" time="0.166"/>
-  <testcase name="testShouldCheckStartButtonExist" classname="org.hyperskill.stopwatch.ExampleUnitTest" time="0.171"/>
+  <testcase name="testShouldCheckTextViewExist" classname="org.hyperskill.stopwatch.ExampleUnitTest" time="8.088"/>
+  <testcase name="testShouldCheckResetButtonExist" classname="org.hyperskill.stopwatch.ExampleUnitTest" time="0.244"/>
+  <testcase name="testShouldCheckResetButtonText" classname="org.hyperskill.stopwatch.ExampleUnitTest" time="0.201"/>
+  <testcase name="testShouldCheckStartButtonText" classname="org.hyperskill.stopwatch.ExampleUnitTest" time="0.212"/>
+  <testcase name="testShouldCheckStartButtonExist" classname="org.hyperskill.stopwatch.ExampleUnitTest" time="0.22"/>
   <system-out><![CDATA[Downloading from maven 
 [Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckTextViewExist: sdk=28; resources=BINARY
 Downloading from maven 
