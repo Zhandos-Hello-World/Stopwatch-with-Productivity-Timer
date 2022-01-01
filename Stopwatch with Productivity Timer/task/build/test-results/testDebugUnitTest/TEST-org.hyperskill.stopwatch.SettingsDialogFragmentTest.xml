@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.hyperskill.stopwatch.SettingsDialogFragmentTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-01-01T12:21:39" hostname="DESKTOP-G7N0UQA" time="20.073">
+  <properties/>
+  <testcase name="testShouldCheckColorsOnRestart" classname="org.hyperskill.stopwatch.SettingsDialogFragmentTest" time="10.657"/>
+  <testcase name="testShouldCheckSettingsButtonEnable" classname="org.hyperskill.stopwatch.SettingsDialogFragmentTest" time="0.567"/>
+  <testcase name="testShouldCheckLimitIsSetOnOk" classname="org.hyperskill.stopwatch.SettingsDialogFragmentTest" time="4.181"/>
+  <testcase name="testShouldCheckLimitIsNotSetOnCancel" classname="org.hyperskill.stopwatch.SettingsDialogFragmentTest" time="3.663"/>
+  <testcase name="testShouldCheckSettingsButtonExist" classname="org.hyperskill.stopwatch.SettingsDialogFragmentTest" time="0.166"/>
+  <testcase name="testDialogButtonsShouldContainText" classname="org.hyperskill.stopwatch.SettingsDialogFragmentTest" time="0.36"/>
+  <testcase name="testShouldCheckSettingsButtonText" classname="org.hyperskill.stopwatch.SettingsDialogFragmentTest" time="0.218"/>
+  <testcase name="testShouldShowAlertDialogOnSettingsButtonClick" classname="org.hyperskill.stopwatch.SettingsDialogFragmentTest" time="0.26"/>
+  <system-out><![CDATA[[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckColorsOnRestart: sdk=28; resources=BINARY
+Called loadFromPath(/system/framework/framework-res.apk, true); mode=binary sdk=28
+[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckSettingsButtonEnable: sdk=28; resources=BINARY
+[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckLimitIsSetOnOk: sdk=28; resources=BINARY
+[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckLimitIsNotSetOnCancel: sdk=28; resources=BINARY
+[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckSettingsButtonExist: sdk=28; resources=BINARY
+[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testDialogButtonsShouldContainText: sdk=28; resources=BINARY
+[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckSettingsButtonText: sdk=28; resources=BINARY
+[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldShowAlertDialogOnSettingsButtonClick: sdk=28; resources=BINARY
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

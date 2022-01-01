@@ -18,5 +18,9 @@
     {
         "merged": "C:\\Users\\Zhandos\\Documents\\GitHub\\Stopwatch-with-Productivity-Timer\\Stopwatch with Productivity Timer\\task\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\Zhandos\\Documents\\GitHub\\Stopwatch-with-Productivity-Timer\\Stopwatch with Productivity Timer\\task\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zhandos\\Documents\\GitHub\\Stopwatch-with-Productivity-Timer\\Stopwatch with Productivity Timer\\task\\build\\intermediates\\merged_res\\debug\\layout_dialog_main.xml.flat",
+        "source": "C:\\Users\\Zhandos\\Documents\\GitHub\\Stopwatch-with-Productivity-Timer\\Stopwatch with Productivity Timer\\task\\src\\main\\res\\layout\\dialog_main.xml"
     }
 ]

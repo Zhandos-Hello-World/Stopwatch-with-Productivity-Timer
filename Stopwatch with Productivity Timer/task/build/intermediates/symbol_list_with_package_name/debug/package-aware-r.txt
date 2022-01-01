@@ -1005,6 +1005,7 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
+id settingsButton
 id shortcut
 id showCustom
 id showHome
@@ -1056,6 +1057,7 @@ id triangle
 id unchecked
 id uniform
 id up
+id upperLimitEditText
 id useLogo
 id visible
 id withText
@@ -1103,6 +1105,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout custom_dialog
+layout dialog_main
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
