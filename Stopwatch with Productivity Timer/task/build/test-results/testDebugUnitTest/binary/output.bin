@@ -1,27 +1,28 @@
-|[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckColorsOnRestart: sdk=28; resources=BINARY
+Å[Robolectric] org.hyperskill.stopwatch.ProgressBarUnitTests.testShouldCheckProgressBarColorEachSecond: sdk=28; resources=BINARY
 TCalled loadFromPath(/system/framework/framework-res.apk, true); mode=binary sdk=28
-Å[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckSettingsButtonEnable: sdk=28; resources=BINARY
-{[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckLimitIsSetOnOk: sdk=28; resources=BINARY
-Ç[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckLimitIsNotSetOnCancel: sdk=28; resources=BINARY
-Ä[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckSettingsButtonExist: sdk=28; resources=BINARY
-Ä[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testDialogButtonsShouldContainText: sdk=28; resources=BINARY
-[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckSettingsButtonText: sdk=28; resources=BINARY
-	å[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldShowAlertDialogOnSettingsButtonClick: sdk=28; resources=BINARY
-
-o[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckTextViewExist: sdk=28; resources=BINARY
-r[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckResetButtonExist: sdk=28; resources=BINARY
-q[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckResetButtonText: sdk=28; resources=BINARY
-q[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckStartButtonText: sdk=28; resources=BINARY
-r[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckStartButtonExist: sdk=28; resources=BINARY
-Å[Robolectric] org.hyperskill.stopwatch.ProgressBarUnitTests.testShouldCheckProgressBarColorEachSecond: sdk=28; resources=BINARY
-Ñ[Robolectric] org.hyperskill.stopwatch.ProgressBarUnitTests.testShouldCheckProgressBarInvisibilityOnInit: sdk=28; resources=BINARY
-É[Robolectric] org.hyperskill.stopwatch.ProgressBarUnitTests.testShouldCheckProgressBarVisibilityOnStart: sdk=28; resources=BINARY
-u[Robolectric] org.hyperskill.stopwatch.ProgressBarUnitTests.testShouldCheckMultipleClicks: sdk=28; resources=BINARY
-x[Robolectric] org.hyperskill.stopwatch.ProgressBarUnitTests.testShouldCheckProgressBarExists: sdk=28; resources=BINARY
-Ö[Robolectric] org.hyperskill.stopwatch.ProgressBarUnitTests.testShouldCheckProgressBarInvisibilityOnReset: sdk=28; resources=BINARY
-à[Robolectric] org.hyperskill.stopwatch.TimerStateUnitTest.testShouldStopTimerAndResetCountOnResetButtonClick: sdk=28; resources=BINARY
-v[Robolectric] org.hyperskill.stopwatch.TimerStateUnitTest.testShouldCheckTimerInitialValue: sdk=28; resources=BINARY
-é[Robolectric] org.hyperskill.stopwatch.TimerStateUnitTest.testShouldCountOneSecondAfterOneSecondOnStartButtonClick: sdk=28; resources=BINARY
-á[Robolectric] org.hyperskill.stopwatch.TimerStateUnitTest.testShouldContinueCountOnPressingStartButtonAgain: sdk=28; resources=BINARY
-è[Robolectric] org.hyperskill.stopwatch.TimerStateUnitTest.testShouldTakeOneSecondToCountOneSecondOnStartButtonClick: sdk=28; resources=BINARY
-~[Robolectric] org.hyperskill.stopwatch.TimerStateUnitTest.testShouldIgnorePressingResetButtonAgain: sdk=28; resources=BINARY
+Ñ[Robolectric] org.hyperskill.stopwatch.ProgressBarUnitTests.testShouldCheckProgressBarInvisibilityOnInit: sdk=28; resources=BINARY
+É[Robolectric] org.hyperskill.stopwatch.ProgressBarUnitTests.testShouldCheckProgressBarVisibilityOnStart: sdk=28; resources=BINARY
+u[Robolectric] org.hyperskill.stopwatch.ProgressBarUnitTests.testShouldCheckMultipleClicks: sdk=28; resources=BINARY
+x[Robolectric] org.hyperskill.stopwatch.ProgressBarUnitTests.testShouldCheckProgressBarExists: sdk=28; resources=BINARY
+Ö[Robolectric] org.hyperskill.stopwatch.ProgressBarUnitTests.testShouldCheckProgressBarInvisibilityOnReset: sdk=28; resources=BINARY
+	|[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckColorsOnRestart: sdk=28; resources=BINARY
+	
+Å[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckSettingsButtonEnable: sdk=28; resources=BINARY
+	{[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckLimitIsSetOnOk: sdk=28; resources=BINARY
+	Ç[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckLimitIsNotSetOnCancel: sdk=28; resources=BINARY
+	Ä[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckSettingsButtonExist: sdk=28; resources=BINARY
+	Ä[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testDialogButtonsShouldContainText: sdk=28; resources=BINARY
+	[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldCheckSettingsButtonText: sdk=28; resources=BINARY
+	å[Robolectric] org.hyperskill.stopwatch.SettingsDialogFragmentTest.testShouldShowAlertDialogOnSettingsButtonClick: sdk=28; resources=BINARY
+à[Robolectric] org.hyperskill.stopwatch.TimerStateUnitTest.testShouldStopTimerAndResetCountOnResetButtonClick: sdk=28; resources=BINARY
+v[Robolectric] org.hyperskill.stopwatch.TimerStateUnitTest.testShouldCheckTimerInitialValue: sdk=28; resources=BINARY
+é[Robolectric] org.hyperskill.stopwatch.TimerStateUnitTest.testShouldCountOneSecondAfterOneSecondOnStartButtonClick: sdk=28; resources=BINARY
+á[Robolectric] org.hyperskill.stopwatch.TimerStateUnitTest.testShouldContinueCountOnPressingStartButtonAgain: sdk=28; resources=BINARY
+è[Robolectric] org.hyperskill.stopwatch.TimerStateUnitTest.testShouldTakeOneSecondToCountOneSecondOnStartButtonClick: sdk=28; resources=BINARY
+~[Robolectric] org.hyperskill.stopwatch.TimerStateUnitTest.testShouldIgnorePressingResetButtonAgain: sdk=28; resources=BINARY
+o[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckTextViewExist: sdk=28; resources=BINARY
+r[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckResetButtonExist: sdk=28; resources=BINARY
+q[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckResetButtonText: sdk=28; resources=BINARY
+q[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckStartButtonText: sdk=28; resources=BINARY
+r[Robolectric] org.hyperskill.stopwatch.ExampleUnitTest.testShouldCheckStartButtonExist: sdk=28; resources=BINARY
+â[Robolectric] org.hyperskill.stopwatch.NotificationUnitTest.testShouldCheckNotificationVisibilityOnTimeExceed: sdk=28; resources=BINARY

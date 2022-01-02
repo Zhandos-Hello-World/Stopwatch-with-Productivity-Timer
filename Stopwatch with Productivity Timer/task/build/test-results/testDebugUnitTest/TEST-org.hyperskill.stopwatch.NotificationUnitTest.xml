@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.hyperskill.stopwatch.NotificationUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-02T09:16:10" hostname="DESKTOP-G7N0UQA" time="2.323">
+  <properties/>
+  <testcase name="testShouldCheckNotificationVisibilityOnTimeExceed" classname="org.hyperskill.stopwatch.NotificationUnitTest" time="2.323"/>
+  <system-out><![CDATA[[Robolectric] org.hyperskill.stopwatch.NotificationUnitTest.testShouldCheckNotificationVisibilityOnTimeExceed: sdk=28; resources=BINARY
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

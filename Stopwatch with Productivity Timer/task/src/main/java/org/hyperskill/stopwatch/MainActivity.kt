@@ -1,9 +1,12 @@
 package org.hyperskill.stopwatch
 
 
-import android.app.AlertDialog
+import android.app.*
+import android.content.Context
+import android.content.Intent
 import android.content.res.ColorStateList
 import android.graphics.Color
+import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -14,7 +17,7 @@ import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.*
+import androidx.core.app.NotificationCompat
 
 class MainActivity : AppCompatActivity() {
     val list = mutableListOf(0, 0)
@@ -28,12 +31,16 @@ class MainActivity : AppCompatActivity() {
     lateinit var textView: TextView
     lateinit var settings: Button
 
+    lateinit var notificationManager:NotificationManager
+    lateinit var notificationBuilder:NotificationCompat.Builder
+    var notifyWork = false
 
     val task: Runnable = object : Runnable {
         override fun run() {
             if (limitIsAlive) {
                 if (list[0] * 60 + list[1] > limit) {
                     textView.setTextColor(Color.RED)
+                    custom_notify()
                 }
                 else {
                     textView.setTextColor(Color.GRAY)
@@ -71,7 +78,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        createNotification()
 
         textView = findViewById(R.id.textView)
         textView.setTextColor(Color.GRAY)
@@ -102,6 +109,7 @@ class MainActivity : AppCompatActivity() {
                 isAlive = false
                 limitIsAlive = false
                 settings.isEnabled = true
+                cancel()
             }
         }
 
@@ -131,6 +139,36 @@ class MainActivity : AppCompatActivity() {
         settings.setOnClickListener {
                 alert.show()
         }
+    }
+    fun createNotification() {
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.O) {
+            val name = "Delivery status"
+            val descriptionText = "Your delivery status"
+            val importance = NotificationManager.IMPORTANCE_HIGH
+            val channel = NotificationChannel("org.hyperskill", name, importance).apply {
+                description = descriptionText
+            }
+            notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+            notificationManager.createNotificationChannel(channel)
+
+            notificationBuilder = NotificationCompat.Builder(applicationContext, "org.hyperskill")
+                .setSmallIcon(R.drawable.ic_launcher_foreground)
+                .setContentTitle("Notification")
+                .setContentText("Time exceeded")
+                .setStyle(NotificationCompat.BigTextStyle())
+                .setPriority(NotificationCompat.PRIORITY_HIGH)
+                .setAutoCancel(true)
+        }
+    }
+    fun custom_notify() {
+        if (!notifyWork) {
+            notificationManager.notify(393939, notificationBuilder.build())
+            notifyWork = true
+        }
+    }
+    fun cancel() {
+        notificationManager.cancel(393939)
+        notifyWork = false
     }
 
     fun convert(value: Int):String {

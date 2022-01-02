@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.hyperskill.stopwatch.TimerStateUnitTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-01-01T12:22:08" hostname="DESKTOP-G7N0UQA" time="7.197">
+<testsuite name="org.hyperskill.stopwatch.TimerStateUnitTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-01-02T09:16:03" hostname="DESKTOP-G7N0UQA" time="7.192">
   <properties/>
-  <testcase name="testShouldStopTimerAndResetCountOnResetButtonClick" classname="org.hyperskill.stopwatch.TimerStateUnitTest" time="1.455"/>
-  <testcase name="testShouldCheckTimerInitialValue" classname="org.hyperskill.stopwatch.TimerStateUnitTest" time="0.112"/>
-  <testcase name="testShouldCountOneSecondAfterOneSecondOnStartButtonClick" classname="org.hyperskill.stopwatch.TimerStateUnitTest" time="1.234"/>
-  <testcase name="testShouldContinueCountOnPressingStartButtonAgain" classname="org.hyperskill.stopwatch.TimerStateUnitTest" time="2.326"/>
-  <testcase name="testShouldTakeOneSecondToCountOneSecondOnStartButtonClick" classname="org.hyperskill.stopwatch.TimerStateUnitTest" time="0.429"/>
-  <testcase name="testShouldIgnorePressingResetButtonAgain" classname="org.hyperskill.stopwatch.TimerStateUnitTest" time="1.641"/>
+  <testcase name="testShouldStopTimerAndResetCountOnResetButtonClick" classname="org.hyperskill.stopwatch.TimerStateUnitTest" time="1.429"/>
+  <testcase name="testShouldCheckTimerInitialValue" classname="org.hyperskill.stopwatch.TimerStateUnitTest" time="0.12"/>
+  <testcase name="testShouldCountOneSecondAfterOneSecondOnStartButtonClick" classname="org.hyperskill.stopwatch.TimerStateUnitTest" time="1.229"/>
+  <testcase name="testShouldContinueCountOnPressingStartButtonAgain" classname="org.hyperskill.stopwatch.TimerStateUnitTest" time="2.321"/>
+  <testcase name="testShouldTakeOneSecondToCountOneSecondOnStartButtonClick" classname="org.hyperskill.stopwatch.TimerStateUnitTest" time="0.47"/>
+  <testcase name="testShouldIgnorePressingResetButtonAgain" classname="org.hyperskill.stopwatch.TimerStateUnitTest" time="1.621"/>
   <system-out><![CDATA[[Robolectric] org.hyperskill.stopwatch.TimerStateUnitTest.testShouldStopTimerAndResetCountOnResetButtonClick: sdk=28; resources=BINARY
 [Robolectric] org.hyperskill.stopwatch.TimerStateUnitTest.testShouldCheckTimerInitialValue: sdk=28; resources=BINARY
 [Robolectric] org.hyperskill.stopwatch.TimerStateUnitTest.testShouldCountOneSecondAfterOneSecondOnStartButtonClick: sdk=28; resources=BINARY
